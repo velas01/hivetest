@@ -1,0 +1,54 @@
+/* chatroom.css */
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 60vh;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #415A77;
+}
+
+.message {
+  background-color: #778DA9; /* Background color for individual messages */
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.user {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #E0E1DD; /* Text color for user names */
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #E0E1DD; /* Background color for the input container */
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #557ca5; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0e0e0e; /* Button background color on hover */
+}
